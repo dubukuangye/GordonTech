@@ -57,7 +57,9 @@ step 32, epochs 8, best_valid loss 0.006598, best_valid_rq -4.050842, best_valid
 ```
 
 ```
-(Base_model_trainning) guoqd@ubuntu:~/workspace/20190422deeplearning/xDev/New_AI_Trainning/Base_model_trainning$ ls -lrt ../Model3/*/*-rw-rw-r-- 1 guoqd guoqd 4902924 May  2 02:15 ../Model3/model_160_Long/saved_model.pb
+(Base_model_trainning) guoqd@ubuntu:~/workspace/20190422deeplearning/xDev/New_AI_Trainning/Base_model_trainning$ ls -lrt ../Model3/*/*
+
+-rw-rw-r-- 1 guoqd guoqd 4902924 May  2 02:15 ../Model3/model_160_Long/saved_model.pb
 -rw-rw-r-- 1 guoqd guoqd     239 May  2 02:15 ../Model3/model_160_Long/Loss.json
 
 ../Model3/checkpoint/model_160_Long:

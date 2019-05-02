@@ -1,22 +1,21 @@
-20190501 总结：
+### 20190501 总结：
 1. 运行Base_model_trainning/main.py 依赖:
     *  dump/preprocessed_dataset/new_index_160.h5 依赖：
         - DataSetIndexCreator.py
         - /dump/stocks_200.csv [NOTFOUND] (貌似这是200只股票名称,比如600615.SH,指向dump/stocks/600615.SH.h5)
     *  dump/preprocessed_dataset/factors_std2.h5 [NOTFOUND] (只看到怎么生成factors_std2.h5)
 
-20190502 总结:
-
+### 20190502 总结:
 1. normalized_dataset_genertor.py 产生大数据集的归一化参数。生成：
-    dump/preprocessed_datase/500/factors_std.h5
-    dump/preprocessed_datase/500/modelSet.json
+    * dump/preprocessed_datase/500/factors_std.h5
+    * dump/preprocessed_datase/500/modelSet.json
 2. DataSet_filter.py 过滤优质数据集。
 3. DataSetIndexCreator_filter.py。生成:
-    dump/preprocessed_datase/500/index_160.h5
+    * dump/preprocessed_datase/500/index_160.h5
 4. SmartDataSet.py 对数据切分，乱序。做了如下改动：
     * 第一步生成的factors_std.h5重命名为factors_std2.h5
     * 修改代码：factors_std改为factors(通过安装vitables查看factors_std.h5文件只存在factors数组)
-    
+
 ```diff
 -        self.__np_factors_data = h5_dataset_file.root.factors_std.read() 
 +        self.__np_factors_data = h5_dataset_file.root.factors.read() 

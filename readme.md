@@ -55,3 +55,32 @@ shuffled
 Early Stopped
 step 32, epochs 8, best_valid loss 0.006598, best_valid_rq -4.050842, best_valid_rmse 0.006597
 ```
+
+```
+(Base_model_trainning) guoqd@ubuntu:~/workspace/20190422deeplearning/xDev/New_AI_Trainning/Base_model_trainning$ ls -lrt ../Model3/*/*-rw-rw-r-- 1 guoqd guoqd 4902924 May  2 02:15 ../Model3/model_160_Long/saved_model.pb
+-rw-rw-r-- 1 guoqd guoqd     239 May  2 02:15 ../Model3/model_160_Long/Loss.json
+
+../Model3/checkpoint/model_160_Long:
+total 23624
+-rw-rw-r-- 1 guoqd guoqd    3857 May  2 02:13 model.ckpt-13.index
+-rw-rw-r-- 1 guoqd guoqd 2273156 May  2 02:13 model.ckpt-13.data-00000-of-00001
+-rw-rw-r-- 1 guoqd guoqd 2557194 May  2 02:13 model.ckpt-13.meta
+-rw-rw-r-- 1 guoqd guoqd 2273156 May  2 02:13 model.ckpt-17.data-00000-of-00001
+-rw-rw-r-- 1 guoqd guoqd    3857 May  2 02:13 model.ckpt-17.index
+-rw-rw-r-- 1 guoqd guoqd 2557194 May  2 02:13 model.ckpt-17.meta
+-rw-rw-r-- 1 guoqd guoqd    3857 May  2 02:13 model.ckpt-21.index
+-rw-rw-r-- 1 guoqd guoqd 2273156 May  2 02:13 model.ckpt-21.data-00000-of-00001
+-rw-rw-r-- 1 guoqd guoqd 2557194 May  2 02:13 model.ckpt-21.meta
+-rw-rw-r-- 1 guoqd guoqd 2273156 May  2 02:14 model.ckpt-25.data-00000-of-00001
+-rw-rw-r-- 1 guoqd guoqd    3857 May  2 02:14 model.ckpt-25.index
+-rw-rw-r-- 1 guoqd guoqd 2557194 May  2 02:14 model.ckpt-25.meta
+-rw-rw-r-- 1 guoqd guoqd    3857 May  2 02:14 model.ckpt-29.index
+-rw-rw-r-- 1 guoqd guoqd 2273156 May  2 02:14 model.ckpt-29.data-00000-of-00001
+-rw-rw-r-- 1 guoqd guoqd     259 May  2 02:14 checkpoint
+-rw-rw-r-- 1 guoqd guoqd 2557194 May  2 02:14 model.ckpt-29.meta
+
+../Model3/model_160_Long/variables:
+total 2224
+-rw-rw-r-- 1 guoqd guoqd    3857 May  2 02:15 variables.index
+-rw-rw-r-- 1 guoqd guoqd 2273156 May  2 02:15 variables.data-00000-of-00001
+```

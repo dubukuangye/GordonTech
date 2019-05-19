@@ -9,6 +9,9 @@
 1. normalized_dataset_genertor.py 产生大数据集的归一化参数。生成：
     * dump/preprocessed_datase/500/factors_std.h5
     * dump/preprocessed_datase/500/modelSet.json
+ 
+ > 5.19更新: dump/stocks/601318SZ.h5可以由xDev/main.py生成。该文件为因子计算结果。
+ 
 2. DataSet_filter.py 过滤优质数据集。
 3. DataSetIndexCreator_filter.py。生成:
     * dump/preprocessed_datase/500/index_160.h5

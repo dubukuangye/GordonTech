@@ -15,6 +15,7 @@
 2. DataSet_filter.py 过滤优质数据集。
 3. DataSetIndexCreator_filter.py。生成:
     * dump/preprocessed_datase/500/index_160.h5
+    > 20190529update: 500->500_filterd
 4. SmartDataSet.py 对数据切分，乱序。做了如下改动：
     * 第一步生成的factors_std.h5重命名为factors_std2.h5
     * 修改代码：factors_std改为factors(通过安装vitables查看factors_std.h5文件只存在factors数组)

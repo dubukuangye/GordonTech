@@ -90,3 +90,10 @@ total 2224
 -rw-rw-r-- 1 guoqd guoqd    3857 May  2 02:15 variables.index
 -rw-rw-r-- 1 guoqd guoqd 2273156 May  2 02:15 variables.data-00000-of-00001
 ```
+
+20190616:
+
+1. 因子多了一个 37？
+2. csv和h5结果对不上
+3. json配置参数确认
+4. 与之前600615.h5比对 

@@ -1,5 +1,6 @@
 ### 20190620环境安装总结
 1. python3-devel
+2. yum install unixODBC-devel
 
 ### 20190501 总结：
 1. 运行Base_model_trainning/main.py 依赖:

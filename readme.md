@@ -1,3 +1,6 @@
+### 20190620环境安装总结
+1. python3-devel
+
 ### 20190501 总结：
 1. 运行Base_model_trainning/main.py 依赖:
     *  dump/preprocessed_dataset/new_index_160.h5 依赖：

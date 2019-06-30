@@ -3,9 +3,9 @@
 1. 训练分为base（通用模型训练）和stock（单只股票训练）
 2. stock训练，文件目录xDev/New_AI_Trainning/stock_model_trainning。步骤为：
 
- * xDev/New_AI_Trainning/noramlized_dataset_generator.py
- * xDev/New_AI_Trainning/DataSetIndexCreator.py
- * xDev/New_AI_Trainning/Stock_Main_trainning.py: 使用了base训练生成的通用模型
+ * xDev/New_AI_Trainning/stock_model_trainning/noramlized_dataset_generator.py
+ * xDev/New_AI_Trainning/stock_model_trainning/DataSetIndexCreator.py
+ * xDev/New_AI_Trainning/stock_model_trainning/Stock_Main_trainning.py: 使用了base训练生成的通用模型
 
 > stock训练无法在虚机上进行，会core，怀疑是内存不够导致。
 

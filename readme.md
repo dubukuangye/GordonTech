@@ -9,6 +9,10 @@
 
 > stock训练无法在虚机上进行，会core，怀疑是内存不够导致。
 
+3. base训练
+
+normalized_dataset_genertor（产生modelSet.json用来下面filter过滤优质因子）-> DataSet_filter->DataSetIndexCreator_ha-> SmartDataSet_ha ->MainModelTrainning
+
 ### 20190620环境安装总结
 1. python3-devel
 2. yum install unixODBC-devel

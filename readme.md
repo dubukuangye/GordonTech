@@ -11,7 +11,15 @@
 
 3. base训练
 
-normalized_dataset_genertor（产生modelSet.json用来下面filter过滤优质因子）-> DataSet_filter->DataSetIndexCreator_ha-> SmartDataSet_ha ->MainModelTrainning
+normalized_dataset_genertor（产生modelSet.json用来下面filter过滤优质因子）[dump/preprocessed_dataset/500/factors_std.h5 /dump/preprocessed_dataset/500/modelSet.json]
+
+->
+
+DataSet_filter[dump/preprocessed_dataset/500_filtered/factors_std.h5]
+
+->DataSetIndexCreator_filter[dump/preprocessed_dataset/500_filtered/index_160.h5]
+
+-> MainModelTrainning(use SmartDataSet_ha)
 
 ### 20190620环境安装总结
 1. python3-devel

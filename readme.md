@@ -3,7 +3,7 @@
 1. 训练分为base（通用模型训练）和stock（单只股票训练）
 2. stock训练，文件目录xDev/New_AI_Trainning/stock_model_trainning。步骤为：
 
- * xDev/New_AI_Trainning/stock_model_trainning/noramlized_dataset_generator.py
+ * xDev/New_AI_Trainning/stock_model_trainning/noramlized_dataset_generator.py （这一步可以不用，归一化后的h5下面步骤没有用到）
  * xDev/New_AI_Trainning/stock_model_trainning/DataSetIndexCreator.py
  * xDev/New_AI_Trainning/stock_model_trainning/Stock_Main_trainning.py: 使用了base训练生成的通用模型
 

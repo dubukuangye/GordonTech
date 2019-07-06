@@ -1,3 +1,8 @@
+### 20190706总结
+
+查看模型tag的方法：
+>  saved_model_cli show --dir ./Model_stock.label1minLongRts/002008.SZ/model_160_Long/
+
 ### 20190630总结
 
 1. 训练分为base（通用模型训练）和stock（单只股票训练）

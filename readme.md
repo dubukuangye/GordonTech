@@ -1,6 +1,9 @@
 ### 20190707总结
 
 1. 计算1个月的因子 实体机需要0.5hour
+2. label windows size(slice_lag)不一样： 1min->160; 2min->200; 5min->240
+   
+   base训练：MainModelTrainning.py DataSetIndexCreator_filter.py SmartDataSet_ha.py 参数都得改
 
 ### 20190706总结
 

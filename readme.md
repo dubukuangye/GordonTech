@@ -4,6 +4,7 @@
 2. label windows size(slice_lag)不一样： 1min->160; 2min->200; 5min->240
    
    base训练：MainModelTrainning.py DataSetIndexCreator_filter.py SmartDataSet_ha.py 参数都得改
+   stock训练：Stock_Main_trainning.py DataSetIndexCreator.py 参数都得改
 
 ### 20190706总结
 

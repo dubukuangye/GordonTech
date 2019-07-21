@@ -17,6 +17,9 @@
 2. stock训练，文件目录xDev/New_AI_Trainning/stock_model_trainning。步骤为：
 
  * xDev/New_AI_Trainning/stock_model_trainning/noramlized_dataset_generator.py （这一步可以不用，归一化后的h5下面步骤没有用到）
+ 
+ > 20190721: 归一化是需要的，生成了根据./dump/002008.csv（原始计算的因子） 生成了./dump/preprocessed_dataset/002008.SZ（归一化后的因子）
+ 
  * xDev/New_AI_Trainning/stock_model_trainning/DataSetIndexCreator.py
  * xDev/New_AI_Trainning/stock_model_trainning/Stock_Main_trainning.py: 使用了base训练生成的通用模型
 
